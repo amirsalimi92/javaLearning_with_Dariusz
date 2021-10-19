@@ -12,11 +12,12 @@ public class Main {
         //AG3
         AG3 object = new AG3();
         int[][] aArray = new int[10][10];
-        int[] a = new int[10];
+        int[] zeil = new int[100];
 
         object.fill2DArray(aArray);
         object.print2DArray(aArray);
-        object.printArray(a);
+        zeil=object.fill2DArray(aArray);
+        object.printArray(zeil);
 
         /*
         //AG2
